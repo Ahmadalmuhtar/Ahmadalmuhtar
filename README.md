@@ -1,16 +1,44 @@
-### Hi there 👋
-- 📫 How to reach me: hello@3xts.com
-- 🔭 I’m currently working on a surprising Project
-- ⚡ Fun fact: Coding is Fun ... is a Fact
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Animation</title>
+  <style>
+    #animatedElement {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      position: absolute;
+    }
+  </style>
+</head>
+<body>
+  <div id="animatedElement"></div>
 
-<!--
-**Ahmadalmuhtar/Ahmadalmuhtar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  <script>
+    const animatedElement = document.getElementById('animatedElement');
+    let positionX = 0;
+    let speed = 2;
 
-Here are some ideas to get you started:
+    function animate() {
+      // Update position
+      positionX += speed;
 
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 😄 Pronouns: ...
--->
+      // Apply new position
+      animatedElement.style.left = positionX + 'px';
+
+      // Check boundary and reverse direction if needed
+      if (positionX <= 0 || positionX >= window.innerWidth - animatedElement.clientWidth) {
+        speed = -speed;
+      }
+
+      // Repeat animation
+      requestAnimationFrame(animate);
+    }
+
+    // Start animation
+    animate();
+  </script>
+</body>
+</html>

@@ -7,7 +7,7 @@
 
 - 🔭 I’m currently working on [3xTs](https://3xts.com)
 
-- 👨‍💻 All of my projects are available at [[https://github.com/Ahmadalmuhtar](https://github.com/Ahmadalmuhtar](https://github.com/Ahmadalmuhtar?tab=repositories))
+- 👨‍💻 All of my projects are available at [[https://github.com/Ahmadalmuhtar](https://github.com/Ahmadalmuhtar?tab=repositories)
 
 - 📝 I regularly write articles on [https://3xts.com/process](https://3xts.com/process)
 

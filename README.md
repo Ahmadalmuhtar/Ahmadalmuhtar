@@ -11,8 +11,6 @@
 
 - 📝 I regularly write articles on [https://3xts.com/process](https://3xts.com/process)
 
-- 💬 Ask me about **anythng you want**
-
 - 📫 How to reach me **hello@3xts.com**
 
 - ⚡ Fun fact **Coding is Fun**
